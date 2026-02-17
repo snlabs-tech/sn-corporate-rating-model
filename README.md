@@ -6,7 +6,7 @@ This repository contains a prototype corporate credit rating model implemented i
 
 - Demonstrate an end-to-end, rule-based corporate rating engine from raw inputs to final rating and outlook.
 - Provide a clear, inspectable alternative to “black-box” ML models for corporate credit risk.
-- Serve as a V1 baseline for experimentation, benchmarking, and documentation; a more refined V2 model supersedes this version for production-grade use.
+- Serve as a V1 baseline for experimentation, benchmarking, and documentation; a more refined V2 model supersedes this version.
 
 ## Core design
 
@@ -63,8 +63,7 @@ A sample run is included in the notebook, showing logs for each ratio and factor
 - This is an educational and exploratory V1 prototype, not a production or regulatory-grade model.
 - Thresholds, weights, and factor definitions are intentionally simple and may differ from agency or internal bank methodologies.
 - No calibration to observed default data, stress testing, or back-testing is implemented in this version.
-- A more advanced V2 model (not part of this notebook) improves on factor design, calibration, and governance; V1 is retained mainly for transparency, documentation, and comparison.
-
+  
 ## Intended use
 
 - Learning and demonstration of corporate credit rating mechanics in a fully open, inspectable Python implementation.
