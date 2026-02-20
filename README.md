@@ -1,3 +1,13 @@
+> 📌 Status: This V1 corporate rating model is **deprecated** and is no longer maintained.
+>
+> Please use the V2 implementation instead:
+> https://github.com/snlabs-tech/SN-Corporate-Rating-Model-V2
+>
+> V2 includes an updated rating engine (`RatingModel`), revised ratio grids,
+> optional distress hardstops and sovereign cap modules, and fully aligned
+> methodology documentation. This V1 repository is kept only for historical reference.
+
+
 # SN — Corporate Rating Model (V1 Prototype)
 
 This repository contains a prototype corporate credit rating model implemented in Python, designed to combine quantitative financial ratios with qualitative risk assessments into a single, transparent issuer rating and outlook.
